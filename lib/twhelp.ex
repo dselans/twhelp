@@ -56,7 +56,7 @@ defmodule Twhelp do
   """
   def handle_args(args) do
     if length(args) !== 2 do
-      IO.puts(yellow("Usage: ") <> "./twhelp.exs acct|code value")
+      IO.puts(yellow("Usage: ") <> "./twhelp acct|code value")
       System.halt(1)
     end
 
